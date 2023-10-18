@@ -1,0 +1,66 @@
+.forms {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 20;
+}
+
+.myHeader {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    height: 100px;
+    background-color: rgb(59, 89, 152);
+    color: #d9dfeb;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.login-container, .signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 10px; /* Add some space between the login and sign-up containers */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    max-width: 300px; /* Adjust the maximum width for the input container */
+    margin: 0 auto; /* Center the input container horizontally */
+    text-align: left; /* Align text (input fields) to the left */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
