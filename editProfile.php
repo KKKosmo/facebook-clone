@@ -64,7 +64,7 @@ if (isset($_SESSION['username'])) {
             <label for="new_display_name">New Display Name:</label>
             <input type="text" id="new_display_name" name="new_display_name" value="<?php echo $display_name; ?>">
             <label for="profile_picture">Upload Profile Picture:</label>
-            <input type="file" id="profile_picture" name="profile_picture" required>
+            <input type="file" id="profile_picture" name="profile_picture">
 
             <!-- Display the cropped image preview -->
             <div class="image_area">

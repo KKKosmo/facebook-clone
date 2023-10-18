@@ -10,14 +10,23 @@
 
 .myHeader {
     display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-    height: 100px;
+    justify-content: flex-end; /* Align elements to the right */
+    align-items: center; /* Vertically center elements */
+    padding: 10px; /* Add spacing around the header */
     background-color: rgb(59, 89, 152);
-    color: #d9dfeb;
+    height: 100px;
     font-size: 40px;
-    text-align: center;
+    color: #d9dfeb;
 }
+
+.user-name {
+    margin-right: 10px; /* Add spacing between username and profile picture */
+}
+
+.profile-picture {
+    max-width: 100px; /* Limit the maximum width of the profile picture */
+}
+
 
 
 .login-container, .signup-container {
@@ -52,7 +61,6 @@ input {
 }
 
 button {
-    width: 100%;
     padding: 10px;
     background-color: #1877f2;
     color: #fff;
@@ -85,4 +93,123 @@ img {
 
 .modal-lg{
     max-width: 1000px !important;
+}
+
+
+/* Style for the navigation bar */
+nav {
+    background-color: #333; /* Background color */
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Spacing around the links */
+    text-decoration: none;
+}
+
+/* Change the link color when you hover over it */
+nav li a:hover {
+    background-color: #555; /* Background color on hover */
+    transition: 0.3s;
+}
+nav .logout-button a:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Adjust the style for the active (current) link, if needed */
+nav .active {
+    background-color: #4CAF50; /* Green for the active link */
+}
+
+
+.post-form {
+    display: inline-block; /* Display the form inline-block */
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 100%; /* Make it responsive within its container */
+}
+
+.post-form label {
+    font-weight: bold;
+}
+
+.post-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.post-form button {
+    background-color: #0074D9; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #0056a4; /* Button background color on hover */
+}
+/* Center the post content form and reduce its width */
+.post-content {
+    text-align: center; /* Center the content horizontally */
+}
+
+
+
+
+.post {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style links within posts */
+.post a {
+    text-decoration: none;
+    color: #0074D9; /* Change the link color to your preference */
+}
+
+.post a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+}
+
+/* Style the post headers */
+.post-header {
+    display: flex; /* Make the content inside flex items */
+    align-items: center; /* Vertically align content */
+    padding: 10px; /* Padding for the header */
+}
+
+/* Style the profile picture within post headers */
+.post-profile-picture {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style the display name within post headers */
+.post-display-name {
+    font-weight: bold; /* Make the display name bold */
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-right: 10px;
 }

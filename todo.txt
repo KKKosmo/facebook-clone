@@ -1,11 +1,17 @@
-upload images, crop and resize - image gallery
+upload and crop
 
 create posts
-create comments
 
 friendship management
 
-likes, comments, shares
+likes
+
+comments
+
+shares
+
+post privacy
+
 notifications for users- push notifications api?
 messaging- firebase?
 tagging
