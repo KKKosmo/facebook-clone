@@ -36,7 +36,7 @@ if (isset($_SESSION['username'])) {
         <p>This is your personalized dashboard. You can add content and features relevant to your application.</p>
 
         <!-- Profile Button -->
-        <a href="profile.php"><button>Edit Profile</button></a>
+        <a href="editProfile.php"><button>Edit Profile</button></a>
 
         <!-- Logout Button -->
         <form action="logout.php" method="post">

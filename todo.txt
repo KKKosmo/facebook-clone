@@ -1,0 +1,16 @@
+upload images, crop and resize - image gallery
+
+create posts
+create comments
+
+friendship management
+
+likes, comments, shares
+notifications for users- push notifications api?
+messaging- firebase?
+tagging
+
+caching
+apis
+
+last seen
